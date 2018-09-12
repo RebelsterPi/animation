@@ -22,6 +22,7 @@ public class ss extends Activity {
             public void run(){
                 try{sleep(1500);
                     Intent intent =new Intent (getApplicationContext(),MainActivity.class);
+                    finish();
                     startActivity(intent);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
