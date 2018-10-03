@@ -22,7 +22,7 @@ public class ss extends Activity {
             public void run(){
                 try{sleep(1500);
                     Intent intent =new Intent (getApplicationContext(),MainActivity.class);
-                    finish();
+                    finish();//this will finish this activity whenever you start the splash activity and continues with main activity
                     startActivity(intent);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
